@@ -1,5 +1,10 @@
 <div style ='border: 10px solid black'><h1>PLAYERS</h1></div>
 <h2>Player 1 is <%=@name1%></h2>
-<h5> 100 hp</h5>
+<!-- <h5> 100 hp</h5> -->
+<%hp = 100%>
+<%=p hp%>
+<form action="/attacks" method="get">
+<input type="submit" value = "Attack!"/>
+</form>
 <h2>Player 2 is <%=@name2%></h2>
 <!-- <h5>100/100 hp</h5> -->

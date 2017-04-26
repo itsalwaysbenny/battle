@@ -19,4 +19,12 @@ class Battle < Sinatra::Base
     erb :play
   end
 
+  get '/attacks' do
+    'ouch'
+  end
+
+  # get '/play' do
+  #   erb :attack
+  # end
+
 end

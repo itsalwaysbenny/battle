@@ -9,6 +9,6 @@ end
 describe 'view points' do
   it "Allows you to see player 2's initial hit points of 100 hp" do
     sign_in_and_play
-    expect(page).to have_content("100 hp")
+    expect(page).to have_content("100")
   end
 end

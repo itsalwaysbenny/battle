@@ -3,6 +3,9 @@
 ENV['RACK_ENV'] = 'test'
 
 # require our Sinatra app file
+
+
+require_relative './features/web_helper.rb'
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
 
 require 'capybara'

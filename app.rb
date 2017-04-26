@@ -20,7 +20,7 @@ class Battle < Sinatra::Base
   end
 
   get '/attacks' do
-    'ouch'
+    erb :attack
   end
 
   # get '/play' do

@@ -1,10 +1,20 @@
-<div style ='border: 10px solid black'><h1>PLAYERS</h1></div>
-<h2>Player 1 is <%=@name1%></h2>
-<!-- <h5> 100 hp</h5> -->
-<%hp = 100%>
-<%=p hp%>
+<div align = "center" style ='border: 10px solid black'><h1>PLAYERS</h1></div>
+
+<font size="10">
+<p style="text-align:left;">
+Player 1 is <%=@name1%>
+<span style="float:right;">Player 2 is <%=@name2%></span></p>
+
+
+<p style="text-align:left;">
+<%hp1 = 100%>
+<%=p hp1%>
+<span style="float:right;">
+<%hp2 = 100%>
+<%=p hp2%></span></p>
+
+<div align = "center">
 <form action="/attacks" method="get">
-<input type="submit" value = "Attack!"/>
+  <input type="submit" value = "Attack!"/>
 </form>
-<h2>Player 2 is <%=@name2%></h2>
-<!-- <h5>100/100 hp</h5> -->
+</div>

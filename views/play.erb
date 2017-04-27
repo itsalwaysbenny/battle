@@ -2,12 +2,12 @@
 
 <font size="10">
 <p style="text-align:left;">
-Player 1 is <%=@name1.name%> <span style="float:right;">Player 2 is <%=@name2.name%> </span></p>
+Player 1 is <%=@game.player1.name%> <span style="float:right;">Player 2 is <%=@game.player2.name%> </span></p>
 
 <p style="text-align:left;">
-<%="#{@name1.hp} hp"%>
+<%="#{@game.player1.hp} hp"%>
 <span style="float:right;">
-<%="#{@name2.hp} hp"%></span></p>
+<%="#{@game.player2.hp} hp"%></span></p>
 
 <div align = "center">
 <form action="/attacks" method="get">
